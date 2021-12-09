@@ -27,10 +27,6 @@ from puts import puts
                            'path/to/file2']],
                           indirect=True)
 def test_ur1(fix_test):
-
-                          [['test_ur1.stdout','/path/to/file2']], # (1) files to remove during setup/teardown
-                          indirect=True)    
-def test_ur1(fix_test):
 	
     """ User Requirement 1: 
     Description here  """ # (2) User Requirement Description
